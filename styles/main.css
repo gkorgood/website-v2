@@ -385,12 +385,12 @@ img{
 }
 
 .group-image{
-  background: url('../assets/images/rloop-group.jpg');
+  background: -webkit-linear-gradient(top, rgba(125,185,232,0) 40%,rgb(114, 161, 216) 100%), url('../assets/images/rloop-group.jpg');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  background-position: 50% -90px;
+  background-position: 50% 10%;
   color: white;
   background-repeat-x: no-repeat;
     background-repeat-y: no-repeat;
@@ -406,7 +406,7 @@ img{
     height: auto;
   }
   .group-image.content-div {
-    min-height: 200px;
+    min-height: 300px;
   }
 }
 
@@ -527,11 +527,11 @@ img{
   margin-top: 30px;
 }
 
-.team.title-header {
-  background-image: -webkit-linear-gradient(top,  rgba(125,185,232,0) 65%,rgba(30,87,153,1) 100%), url('../assets/images/rloop-psfk.com_.png-1.jpg');
+.team .title-header {
+  background-image: -webkit-linear-gradient(top,  rgba(125,185,232,0) 65%,rgba(30,87,153,1) 100%), url('../assets/images/rloop-group.jpg');
   background-size: initial;
   background-repeat: no-repeat;
-  background-position: 50% 50%;
+  background-position: 50% 20%;
   text-align: center;
   min-height: 330px;
   background-color: black;
@@ -611,7 +611,7 @@ img{
   }
 }
 
-.press.title-header {
+.press .title-header {
     height: 35vh;
     background-image: url('../assets/images/hyperloop-award-signed-by-elon-musk.jpg');
     background-size: cover;
